@@ -1,0 +1,11 @@
+name: Cancer4MC
+version: 1.0
+author: RoboMWM
+main: me.robomwm.Cancer4MC.Cancer4MC
+permissions:
+  cancer.*:
+    children:
+      cancer.has: true
+  cancer.has:
+    description: Can bypass wait time
+    default: op
